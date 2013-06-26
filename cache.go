@@ -1,8 +1,8 @@
 package levigo
 
-// #cgo LDFLAGS: -lleveldb
+// #cgo LDFLAGS: -lhyperleveldb
 // #include <stdint.h>
-// #include "leveldb/c.h"
+// #include "hyperleveldb/c.h"
 import "C"
 
 // Cache is a cache used to store data read from data in memory.
